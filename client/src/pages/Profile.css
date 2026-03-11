@@ -1,0 +1,21 @@
+.profile-page { display:flex; justify-content:center; }
+.profile-card { max-width:1000px; width:100%; background:#fff; border-radius:10px; box-shadow:0 6px 20px rgba(0,0,0,0.08); padding:20px; display:flex; gap:20px; align-items:flex-start; }
+.profile-left { width:260px; display:flex; gap:16px; align-items:center; }
+.avatar { width:88px; height:88px; border-radius:50%; background:linear-gradient(135deg,#ff9a76,#ff6b35); color:#fff; display:flex; align-items:center; justify-content:center; font-size:36px; font-weight:700; }
+.basic h2 { margin:0 0 6px; }
+.basic .muted { color:#666; font-size:14px; margin-bottom:8px; }
+.badge { display:inline-block; padding:6px 10px; border-radius:20px; font-size:12px; }
+.badge.verified { background:#e6ffef; color:#0a7a3a; }
+.badge.unverified { background:#fff4e6; color:#b46900; }
+.profile-right { flex:1; }
+.section { margin-bottom:16px; border-bottom:1px solid #f2f2f2; padding-bottom:12px; }
+.section h3 { margin:0 0 8px; }
+.row { display:flex; justify-content:space-between; padding:8px 0; }
+.row .label { color:#666; }
+.actions { margin-top:12px; display:flex; gap:8px; }
+.btn { background:#ff6b35; color:#fff; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; }
+.btn.ghost { background:transparent; border:1px solid #ddd; color:#333; }
+.muted { color:#666; }
+.edit-form label { display:block; margin-bottom:8px; }
+.edit-form input { width:100%; padding:8px; border:1px solid #e6e6e6; border-radius:6px; }
+@media (max-width:700px) { .profile-card { flex-direction:column; } .profile-left { width:100%; justify-content:flex-start; }}

@@ -1,0 +1,24 @@
+.order-history { padding: 20px; }
+.orders-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; margin-top: 16px; }
+.order-card { background: #fff; border-radius: 10px; padding: 14px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); display:flex; flex-direction:column; }
+.oc-top { display:flex; justify-content:space-between; align-items:center; }
+.order-num { font-weight:700; }
+.oc-body { display:flex; justify-content:space-between; margin-top:12px; align-items:flex-start; }
+.items { flex:1; }
+.item-line { display:flex; gap:8px; justify-content:space-between; padding:6px 0; border-bottom:1px dashed #f1f1f1; }
+.item-name { font-weight:600; }
+.totals { width:110px; text-align:right; }
+.total-amt { font-weight:700; font-size:18px; }
+.oc-actions { margin-top:12px; display:flex; justify-content:flex-end; }
+.btn { background:#ff6b35; color:#fff; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; }
+.btn.ghost { background:transparent; color:#333; border:1px solid #ddd; }
+.badge { display:inline-block; padding:6px 8px; border-radius:6px; font-size:12px; margin-left:6px; }
+.badge.paid { background:#e6ffef; color:#0a7a3a; }
+.badge.pending { background:#fff4e6; color:#b46900; }
+.badge.status { margin-left:8px; }
+.oc-details { margin-top:12px; border-top:1px solid #f5f5f5; padding-top:10px; }
+.detail-item { display:flex; justify-content:space-between; padding:6px 0; }
+.loader { padding:40px; text-align:center; }
+.error { color:#b00020; padding:20px; }
+.muted { color:#666; }
+@media (max-width:700px) { .oc-body { flex-direction:column; gap:8px; } }
